@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EED681326E9AD45006400A4 /* gandomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED681226E9AD45006400A4 /* gandomApp.swift */; };
+		7EED681526E9AD45006400A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED681426E9AD45006400A4 /* ContentView.swift */; };
+		7EED681726E9AD47006400A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED681626E9AD47006400A4 /* Assets.xcassets */; };
+		7EED681A26E9AD47006400A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED681926E9AD47006400A4 /* Preview Assets.xcassets */; };
+		7EED682526E9AD47006400A4 /* gandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED682426E9AD47006400A4 /* gandomTests.swift */; };
+		7EED683026E9AD47006400A4 /* gandomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED682F26E9AD47006400A4 /* gandomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EED682126E9AD47006400A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EED680726E9AD45006400A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EED680E26E9AD45006400A4;
+			remoteInfo = gandom;
+		};
+		7EED682C26E9AD47006400A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EED680726E9AD45006400A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EED680E26E9AD45006400A4;
+			remoteInfo = gandom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EED680F26E9AD45006400A4 /* gandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EED681226E9AD45006400A4 /* gandomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gandomApp.swift; sourceTree = "<group>"; };
+		7EED681426E9AD45006400A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EED681626E9AD47006400A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EED681926E9AD47006400A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EED681B26E9AD47006400A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EED682026E9AD47006400A4 /* gandomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gandomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EED682426E9AD47006400A4 /* gandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gandomTests.swift; sourceTree = "<group>"; };
+		7EED682626E9AD47006400A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EED682B26E9AD47006400A4 /* gandomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gandomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EED682F26E9AD47006400A4 /* gandomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gandomUITests.swift; sourceTree = "<group>"; };
+		7EED683126E9AD47006400A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EED680C26E9AD45006400A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED681D26E9AD47006400A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED682826E9AD47006400A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EED680626E9AD45006400A4 = {
+			isa = PBXGroup;
+			children = (
+				7EED681126E9AD45006400A4 /* gandom */,
+				7EED682326E9AD47006400A4 /* gandomTests */,
+				7EED682E26E9AD47006400A4 /* gandomUITests */,
+				7EED681026E9AD45006400A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EED681026E9AD45006400A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EED680F26E9AD45006400A4 /* gandom.app */,
+				7EED682026E9AD47006400A4 /* gandomTests.xctest */,
+				7EED682B26E9AD47006400A4 /* gandomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EED681126E9AD45006400A4 /* gandom */ = {
+			isa = PBXGroup;
+			children = (
+				7EED681226E9AD45006400A4 /* gandomApp.swift */,
+				7EED681426E9AD45006400A4 /* ContentView.swift */,
+				7EED681626E9AD47006400A4 /* Assets.xcassets */,
+				7EED681B26E9AD47006400A4 /* Info.plist */,
+				7EED681826E9AD47006400A4 /* Preview Content */,
+			);
+			path = gandom;
+			sourceTree = "<group>";
+		};
+		7EED681826E9AD47006400A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EED681926E9AD47006400A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EED682326E9AD47006400A4 /* gandomTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EED682426E9AD47006400A4 /* gandomTests.swift */,
+				7EED682626E9AD47006400A4 /* Info.plist */,
+			);
+			path = gandomTests;
+			sourceTree = "<group>";
+		};
+		7EED682E26E9AD47006400A4 /* gandomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EED682F26E9AD47006400A4 /* gandomUITests.swift */,
+				7EED683126E9AD47006400A4 /* Info.plist */,
+			);
+			path = gandomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EED680E26E9AD45006400A4 /* gandom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EED683426E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandom" */;
+			buildPhases = (
+				7EED680B26E9AD45006400A4 /* Sources */,
+				7EED680C26E9AD45006400A4 /* Frameworks */,
+				7EED680D26E9AD45006400A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gandom;
+			productName = gandom;
+			productReference = 7EED680F26E9AD45006400A4 /* gandom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EED681F26E9AD47006400A4 /* gandomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EED683726E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandomTests" */;
+			buildPhases = (
+				7EED681C26E9AD47006400A4 /* Sources */,
+				7EED681D26E9AD47006400A4 /* Frameworks */,
+				7EED681E26E9AD47006400A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EED682226E9AD47006400A4 /* PBXTargetDependency */,
+			);
+			name = gandomTests;
+			productName = gandomTests;
+			productReference = 7EED682026E9AD47006400A4 /* gandomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EED682A26E9AD47006400A4 /* gandomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EED683A26E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandomUITests" */;
+			buildPhases = (
+				7EED682726E9AD47006400A4 /* Sources */,
+				7EED682826E9AD47006400A4 /* Frameworks */,
+				7EED682926E9AD47006400A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EED682D26E9AD47006400A4 /* PBXTargetDependency */,
+			);
+			name = gandomUITests;
+			productName = gandomUITests;
+			productReference = 7EED682B26E9AD47006400A4 /* gandomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EED680726E9AD45006400A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7EED680E26E9AD45006400A4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7EED681F26E9AD47006400A4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7EED680E26E9AD45006400A4;
+					};
+					7EED682A26E9AD47006400A4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7EED680E26E9AD45006400A4;
+					};
+				};
+			};
+			buildConfigurationList = 7EED680A26E9AD45006400A4 /* Build configuration list for PBXProject "gandom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EED680626E9AD45006400A4;
+			productRefGroup = 7EED681026E9AD45006400A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EED680E26E9AD45006400A4 /* gandom */,
+				7EED681F26E9AD47006400A4 /* gandomTests */,
+				7EED682A26E9AD47006400A4 /* gandomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EED680D26E9AD45006400A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED681A26E9AD47006400A4 /* Preview Assets.xcassets in Resources */,
+				7EED681726E9AD47006400A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED681E26E9AD47006400A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED682926E9AD47006400A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EED680B26E9AD45006400A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED681526E9AD45006400A4 /* ContentView.swift in Sources */,
+				7EED681326E9AD45006400A4 /* gandomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED681C26E9AD47006400A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED682526E9AD47006400A4 /* gandomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EED682726E9AD47006400A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED683026E9AD47006400A4 /* gandomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EED682226E9AD47006400A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EED680E26E9AD45006400A4 /* gandom */;
+			targetProxy = 7EED682126E9AD47006400A4 /* PBXContainerItemProxy */;
+		};
+		7EED682D26E9AD47006400A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EED680E26E9AD45006400A4 /* gandom */;
+			targetProxy = 7EED682C26E9AD47006400A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EED683226E9AD47006400A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EED683326E9AD47006400A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EED683526E9AD47006400A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gandom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gandom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EED683626E9AD47006400A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gandom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gandom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EED683826E9AD47006400A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gandomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gandom.app/gandom";
+			};
+			name = Debug;
+		};
+		7EED683926E9AD47006400A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gandomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gandom.app/gandom";
+			};
+			name = Release;
+		};
+		7EED683B26E9AD47006400A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gandomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gandom;
+			};
+			name = Debug;
+		};
+		7EED683C26E9AD47006400A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gandomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs4261.gandomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gandom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EED680A26E9AD45006400A4 /* Build configuration list for PBXProject "gandom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EED683226E9AD47006400A4 /* Debug */,
+				7EED683326E9AD47006400A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EED683426E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EED683526E9AD47006400A4 /* Debug */,
+				7EED683626E9AD47006400A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EED683726E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EED683826E9AD47006400A4 /* Debug */,
+				7EED683926E9AD47006400A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EED683A26E9AD47006400A4 /* Build configuration list for PBXNativeTarget "gandomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EED683B26E9AD47006400A4 /* Debug */,
+				7EED683C26E9AD47006400A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EED680726E9AD45006400A4 /* Project object */;
+}

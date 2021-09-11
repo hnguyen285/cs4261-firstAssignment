@@ -9,16 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var diceFaceRand = Int.random(in: 2...7)
+    @State private var diceFaceRand = Int.random(in: 1...6)
         
     var body: some View {
         VStack {
             Spacer()
             Image(String(diceFaceRand))
+                .resizable()
                 .aspectRatio(contentMode: .fit)
+                .frame(width: 150.0)
             Spacer()
             Button(action: {
-                diceFaceRand = Int.random(in: 2...7)
+                diceFaceRand = Int.random(in: 1...6)
             }, label: {
                 Text("SHAKE")
                     .font(.title)

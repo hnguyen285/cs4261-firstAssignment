@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct gandomApp: App {
+    var network = Network()
+    
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            LoginView().environmentObject(network)
         }
     }
 }

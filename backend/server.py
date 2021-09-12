@@ -13,6 +13,7 @@ db = database_queries.DB()
 @cross_origin()
 def login():
     data = request.get_json(force=True)
+    print(data)
     username = data["username"]
     password = data["password"]
     response = {}
@@ -22,6 +23,8 @@ def login():
             results = db.get_user_login(username)
             print(results)
             get_password = results[0][0]
+            print(get_password)
+            print(type(get_password))
             if get_password == password:
                 response["status"] = "loggedIn"
             else:

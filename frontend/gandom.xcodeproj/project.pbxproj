@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B27102626EDCBC800FE2595 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B27102526EDCBC800FE2595 /* Network.swift */; };
+		7B27102B26EDCC5100FE2595 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B27102A26EDCC5100FE2595 /* User.swift */; };
 		7EED681326E9AD45006400A4 /* gandomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED681226E9AD45006400A4 /* gandomApp.swift */; };
 		7EED681526E9AD45006400A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED681426E9AD45006400A4 /* ContentView.swift */; };
 		7EED681726E9AD47006400A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED681626E9AD47006400A4 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B27102526EDCBC800FE2595 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		7B27102A26EDCC5100FE2595 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7EED680F26E9AD45006400A4 /* gandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EED681226E9AD45006400A4 /* gandomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gandomApp.swift; sourceTree = "<group>"; };
 		7EED681426E9AD45006400A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				DA9AF9D726EDB75500661594 /* LoginView.swift */,
 				7EED681B26E9AD47006400A4 /* Info.plist */,
 				7EED681826E9AD47006400A4 /* Preview Content */,
+				7B27102526EDCBC800FE2595 /* Network.swift */,
+				7B27102A26EDCC5100FE2595 /* User.swift */,
 			);
 			path = gandom;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				DA9AF9D826EDB75500661594 /* LoginView.swift in Sources */,
 				7EED681526E9AD45006400A4 /* ContentView.swift in Sources */,
+				7B27102626EDCBC800FE2595 /* Network.swift in Sources */,
+				7B27102B26EDCC5100FE2595 /* User.swift in Sources */,
 				7EED681326E9AD45006400A4 /* gandomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

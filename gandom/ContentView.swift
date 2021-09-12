@@ -24,18 +24,32 @@ struct ContentView: View {
             }, label: {
                 Text("SHAKE")
                     .font(.title)
-                    .fontWeight(.black)
-                    .foregroundColor(Color.black).padding(5.0)
+                    .foregroundColor(Color.white)
+                    .padding()
+                    .frame(width: 300, height: 50)
+                    .background(Color.green)
+                    .cornerRadius(15.0)
             })
-            .padding(3.0)
-            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/4/*@END_MENU_TOKEN@*/)
             Spacer()
         }
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 12 Pro Max")
+            .previewLayout(.device)
     }
 }

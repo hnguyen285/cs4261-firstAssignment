@@ -13,6 +13,7 @@
 		7EED681A26E9AD47006400A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EED681926E9AD47006400A4 /* Preview Assets.xcassets */; };
 		7EED682526E9AD47006400A4 /* gandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED682426E9AD47006400A4 /* gandomTests.swift */; };
 		7EED683026E9AD47006400A4 /* gandomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EED682F26E9AD47006400A4 /* gandomUITests.swift */; };
+		DA9AF9D826EDB75500661594 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AF9D726EDB75500661594 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7EED682B26E9AD47006400A4 /* gandomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gandomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EED682F26E9AD47006400A4 /* gandomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gandomUITests.swift; sourceTree = "<group>"; };
 		7EED683126E9AD47006400A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9AF9D726EDB75500661594 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7EED681226E9AD45006400A4 /* gandomApp.swift */,
 				7EED681426E9AD45006400A4 /* ContentView.swift */,
 				7EED681626E9AD47006400A4 /* Assets.xcassets */,
+				DA9AF9D726EDB75500661594 /* LoginView.swift */,
 				7EED681B26E9AD47006400A4 /* Info.plist */,
 				7EED681826E9AD47006400A4 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9AF9D826EDB75500661594 /* LoginView.swift in Sources */,
 				7EED681526E9AD45006400A4 /* ContentView.swift in Sources */,
 				7EED681326E9AD45006400A4 /* gandomApp.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"gandom/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = gandom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"gandom/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = gandom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

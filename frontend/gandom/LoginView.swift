@@ -20,6 +20,8 @@ struct LoginView: View {
         
             NavigationView {
                 VStack {
+                    Text("Welcome to Gandom!")
+                        .font(.largeTitle)
                     Spacer()
                     TextField("Email", text: self.$email)
                         .padding()

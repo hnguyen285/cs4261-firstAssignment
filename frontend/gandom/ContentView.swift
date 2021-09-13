@@ -19,19 +19,22 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150.0)
             Spacer()
-            Button(action: {
-                diceFaceRand = Int.random(in: 1...6)
-            }, label: {
-                Text("SHAKE")
-                    .font(.title)
-                    .foregroundColor(Color.white)
-                    .padding()
-                    .frame(width: 300, height: 50)
-                    .background(Color.green)
-                    .cornerRadius(15.0)
-            })
+            shakeButton
             Spacer()
         }
+    }
+    var shakeButton: some View {
+        Button(action: {
+            diceFaceRand = Int.random(in: 1...6)
+        }, label: {
+            Text("SHAKE")
+                .font(.title)
+                .foregroundColor(Color.white)
+                .padding()
+                .frame(width: 300, height: 50)
+                .background(Color.green)
+                .cornerRadius(15.0)
+        })
     }
 }
 

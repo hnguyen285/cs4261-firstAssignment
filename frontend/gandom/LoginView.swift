@@ -35,7 +35,7 @@ struct LoginView: View {
                         ).padding()
                     Spacer()
                     NavigationLink(
-                        destination: Text("ContentView.swift"), tag: 1, selection: $selection
+                        destination: ContentView(), tag: 1, selection: $selection
                     ) {
                         Button(action: {
                             self.getLogin()
